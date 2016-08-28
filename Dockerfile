@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     make \
     openssl \
     libcurl4-openssl-dev \
-    libssl-dev \
+    libssl-dev
 
 # Install and link MongoDB extension
 RUN pecl install mongodb
